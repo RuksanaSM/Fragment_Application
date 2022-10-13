@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".First_Fragment_page">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Fragment Page!"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            />
+
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/edtxt1"-->
+<!--            android:layout_marginRight="42dp"-->
+<!--            android:layout_marginLeft="42dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:hint="enter name"-->
+<!--            />-->
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/edtxt2"-->
+<!--            android:layout_marginRight="42dp"-->
+<!--            android:layout_marginLeft="42dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:hint="enter mail"-->
+<!--            />-->
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="send to Fragment"-->
+<!--            android:layout_marginRight="42dp"-->
+<!--            android:layout_marginLeft="42dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:id="@+id/sendbtnid"/>-->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listviewid"/>
+    </LinearLayout>

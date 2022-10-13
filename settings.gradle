@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Fragment_Application"
+include ':app'
+include ':app:tab_fragment_activity'
+include ':app:data_passing_in_fragments'
+include ':app:fragment_listview_data'
+include ':app:fragment'
+include ':app:fragmentdatapassing'
+include ':app:fragment_bottomnavigation'

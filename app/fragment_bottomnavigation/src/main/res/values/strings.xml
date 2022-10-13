@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fragment_BottomNavigation</string>
+    <string name="title_home">ODS_Home</string>
+    <string name="title_dashboard">Employee List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="emp_List">Employee DataBase</string>
+
+</resources>
